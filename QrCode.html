@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de QrCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="qrcode"></div>
+    <div class="cores">
+        <label for="">FUNDO</label>
+        <input type="color" name="" id="fundo" value="#FFFFFF">
+        <label for="">CONTRASTE</label>
+        <input type="color" name="" id="contraste">
+    </div>
+    <div class="link">
+        <label for="">URL</label>
+        <input type="text" name="" id="url">
+        <button onclick="gerarQRCode()">GERAR QRCODE</button>
+    </div>
+    <a href="" download="qrcode.png" id="download">BAIXAR QRCODE</a>
+    <div class="roda-pé">
+        <h1>&copy; Leandro Silva</h1>
+        <img src="Leandroo.jpg" alt="">
+    </div>
+    <script src="qrcode.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
